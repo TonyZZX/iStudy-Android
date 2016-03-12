@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutBase"
+    android:background="@drawable/white" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tools_top" >
+
+    </include>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1" >
+
+        <TableRow
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/calResultText"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/black_2"
+                android:textIsSelectable="false"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/delete"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:text="DEL" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/b7"
+                style="@style/CalculatorButton"
+                android:layout_marginRight="1dp"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/b8"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/b9"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/divide"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:text="÷" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/b4"
+                style="@style/CalculatorButton"
+                android:layout_marginRight="1dp"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/b5"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/b6"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/multiply"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:text="×" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/CalculatorButton"
+                android:layout_marginRight="1dp"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/subtract"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:text="-" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/point"
+                style="@style/CalculatorButton"
+                android:layout_marginRight="1dp"
+                android:text="." />
+
+            <Button
+                android:id="@+id/b0"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/equal"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/add"
+                style="@style/CalculatorButton"
+                android:layout_marginLeft="1dp"
+                android:text="+" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/calText"
+        style="@style/TextView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/up"
+            style="@style/TextButton"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/up"
+            android:text="@string/back" />
+
+    </LinearLayout>
+
+</LinearLayout> 

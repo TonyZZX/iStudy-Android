@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout" >
+
+    <TextView
+        style="@style/TextView"
+        android:layout_marginTop="0dp"
+        android:text="@string/name"
+        android:textSize="22sp" />
+
+    <ImageView
+        style="@style/WidgetVertical"
+        android:contentDescription="@string/name"
+        android:src="@drawable/logo" />
+
+    <View style="@style/Blank" />
+
+   <ScrollView style="@style/ScrollViewWidget" >
+
+       <RelativeLayout
+           style="@style/LayoutBase"
+           android:layout_height="wrap_content"
+           android:gravity="center_horizontal" >
+
+           <TextView
+               android:id="@+id/developerName"
+               style="@style/TextView"
+               android:text="@string/developerName"
+               android:textColor="?attr/TextView" />
+
+           <TextView
+               android:id="@+id/develop"
+               style="@style/TextView"
+               android:layout_marginLeft="2dp"
+               android:layout_toRightOf="@id/developerName"
+               android:text="@string/develop" />
+
+            <TextView
+                android:id="@+id/twitter"
+                style="@style/TextView"
+                android:layout_below="@id/developerName"
+                android:layout_marginRight="2dp"
+                android:text="@string/twitter" />
+
+            <TextView
+                android:id="@+id/twitterName"
+                style="@style/TextView"
+                android:layout_below="@id/develop"
+                android:layout_toRightOf="@id/twitter"
+                android:text="@string/twitterName"
+                android:textColor="?attr/TextView" />
+
+       </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/version"
+        style="@style/TextView"
+        android:textIsSelectable="false" />
+
+</LinearLayout>

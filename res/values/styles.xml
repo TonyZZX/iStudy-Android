@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeBase" parent="Theme.Sherlock.Light.DarkActionBar" >
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarItemBackground">?attr/TextViewBackground</item>
+        <item name="numberPickerStyle">@style/NumberPicker</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:checkboxStyle">@style/CheckBox</item>
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="TextViewBackground">@drawable/view_background_green</item>
+        <item name="Button">@drawable/btn_default_holo_light_green</item>
+        <item name="TextButton">@drawable/text_button_green</item>
+        <item name="CheckBox">@drawable/btn_check_holo_light_green</item>
+        <item name="Handle">@drawable/handle_green</item>
+        <item name="EditText">@drawable/edit_text_holo_light_green</item>
+        <item name="Divider">@drawable/green_light</item>
+        <item name="RadioButton">@drawable/btn_radio_holo_light_green</item>
+        <item name="TextView">@color/green_light</item>
+        <item name="ItemBackGround">@drawable/item_background_holo_light_green</item>
+        <item name="NumberPickerDivider">@drawable/numberpicker_selection_divider_green</item>
+        <item name="FastscrollThumb">@drawable/fastscroll_thumb_holo_green</item>
+        <item name="CalculatorButton">@drawable/button_green</item>
+    </style>
+    
+    <style name="Theme" parent="@style/ThemeBase" ></style>
+    
+    <style name="Green" parent="@style/Theme" >
+        <item name="TextViewBackground">@drawable/view_background_green</item>
+        <item name="Button">@drawable/btn_default_holo_light_green</item>
+        <item name="TextButton">@drawable/text_button_green</item>
+        <item name="CheckBox">@drawable/btn_check_holo_light_green</item>
+        <item name="Handle">@drawable/handle_green</item>
+        <item name="EditText">@drawable/edit_text_holo_light_green</item>
+        <item name="Divider">@drawable/green_light</item>
+        <item name="RadioButton">@drawable/btn_radio_holo_light_green</item>
+        <item name="TextView">@color/green_light</item>
+        <item name="ItemBackGround">@drawable/item_background_holo_light_green</item>
+        <item name="NumberPickerDivider">@drawable/numberpicker_selection_divider_green</item>
+        <item name="FastscrollThumb">@drawable/fastscroll_thumb_holo_green</item>
+        <item name="CalculatorButton">@drawable/button_green</item>
+    </style>
+    
+    <style name="Blue" parent="@style/Theme" >
+        <item name="TextViewBackground">@drawable/view_background_blue</item>
+        <item name="Button">@drawable/btn_default_holo_light_blue</item>
+        <item name="TextButton">@drawable/text_button_blue</item>
+        <item name="CheckBox">@drawable/btn_check_holo_light_blue</item>
+        <item name="Handle">@drawable/handle_blue</item>
+        <item name="EditText">@drawable/edit_text_holo_light_blue</item>
+        <item name="Divider">@drawable/blue_light</item>
+        <item name="RadioButton">@drawable/btn_radio_holo_light_blue</item>
+        <item name="TextView">@color/blue_light</item>
+        <item name="ItemBackGround">@drawable/item_background_holo_light_blue</item>
+        <item name="NumberPickerDivider">@drawable/numberpicker_selection_divider_blue</item>
+        <item name="FastscrollThumb">@drawable/fastscroll_thumb_holo_blue</item>
+        <item name="CalculatorButton">@drawable/button_blue</item>
+    </style>
+    
+    <style name="Purple" parent="@style/Theme" >
+        <item name="TextViewBackground">@drawable/view_background_purple</item>
+        <item name="Button">@drawable/btn_default_holo_light_purple</item>
+        <item name="TextButton">@drawable/text_button_purple</item>
+        <item name="CheckBox">@drawable/btn_check_holo_light_purple</item>
+        <item name="Handle">@drawable/handle_purple</item>
+        <item name="EditText">@drawable/edit_text_holo_light_purple</item>
+        <item name="Divider">@drawable/purple_light</item>
+        <item name="RadioButton">@drawable/btn_radio_holo_light_purple</item>
+        <item name="TextView">@color/purple_light</item>
+        <item name="ItemBackGround">@drawable/item_background_holo_light_purple</item>
+        <item name="NumberPickerDivider">@drawable/numberpicker_selection_divider_purple</item>
+        <item name="FastscrollThumb">@drawable/fastscroll_thumb_holo_purple</item>
+        <item name="CalculatorButton">@drawable/button_purple</item>
+    </style>
+    
+    <style name="Orange" parent="@style/Theme" >
+        <item name="TextViewBackground">@drawable/view_background_orange</item>
+        <item name="Button">@drawable/btn_default_holo_light_orange</item>
+        <item name="TextButton">@drawable/text_button_orange</item>
+        <item name="CheckBox">@drawable/btn_check_holo_light_orange</item>
+        <item name="Handle">@drawable/handle_orange</item>
+        <item name="EditText">@drawable/edit_text_holo_light_orange</item>
+        <item name="Divider">@drawable/orange_light</item>
+        <item name="RadioButton">@drawable/btn_radio_holo_light_orange</item>
+        <item name="TextView">@color/orange_light</item>
+        <item name="ItemBackGround">@drawable/item_background_holo_light_orange</item>
+        <item name="NumberPickerDivider">@drawable/numberpicker_selection_divider_orange</item>
+        <item name="FastscrollThumb">@drawable/fastscroll_thumb_holo_orange</item>
+        <item name="CalculatorButton">@drawable/button_orange</item>
+    </style>
+    
+    <style name="Red" parent="@style/Theme" >
+        <item name="TextViewBackground">@drawable/view_background_red</item>
+        <item name="Button">@drawable/btn_default_holo_light_red</item>
+        <item name="TextButton">@drawable/text_button_red</item>
+        <item name="CheckBox">@drawable/btn_check_holo_light_red</item>
+        <item name="Handle">@drawable/handle_red</item>
+        <item name="EditText">@drawable/edit_text_holo_light_red</item>
+        <item name="Divider">@drawable/red_light</item>
+        <item name="RadioButton">@drawable/btn_radio_holo_light_red</item>
+        <item name="TextView">@color/red_light</item>
+        <item name="ItemBackGround">@drawable/item_background_holo_light_red</item>
+        <item name="NumberPickerDivider">@drawable/numberpicker_selection_divider_red</item>
+        <item name="FastscrollThumb">@drawable/fastscroll_thumb_holo_red</item>
+        <item name="CalculatorButton">@drawable/button_red</item>
+    </style>
+    
+    <style name="ActionBarBase" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">?attr/Divider</item>
+        <item name="android:background">?attr/Divider</item>
+        <item name="backgroundSplit">@drawable/gray</item>
+    </style>
+    
+    <style name="ActionBar" parent="@style/ActionBarBase" ></style>
+    
+    <style name="ScrollView" parent="@android:style/Widget.ScrollView" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/white</item>
+    </style>
+    
+    <style name="ScrollViewWidget" parent="@android:style/Widget.ScrollView" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+    
+    <style name="LayoutBase" parent="Theme.Sherlock.Light" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="Layout" parent="@style/LayoutBase" >
+        <item name="android:background">@drawable/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+    </style>
+    
+    <style name="TextView" parent="@android:style/Widget.TextView" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+    
+    <style name="TextButton" parent="@style/TextView" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+    
+    <style name="WidgetVertical" parent="@android:style/Widget" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+    
+    <style name="Button" parent="@android:style/Widget.Button" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">?attr/Button</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+    
+    <style name="CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:button">?attr/CheckBox</item>
+        <item name="android:checked">true</item>
+    </style>
+    
+    <style name="Blank" parent="@android:style/Widget" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="EditText" parent="@android:style/Widget.EditText" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">?attr/EditText</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+    
+    <style name="Divider" parent="@android:style/Widget" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">?attr/Divider</item>
+    </style>
+    
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableRight">?attr/RadioButton</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:textColor">@color/black_2</item>
+    </style>
+    
+    <style name="DividerGray" parent="@android:style/Widget" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/gray</item>
+    </style>
+    
+    <style name="ProgressBar" >
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:maxWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+    </style>
+    
+    <style name="NumberPicker" parent="@style/NPWidget.Holo.Light.NumberPicker">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dp</item>
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">?attr/NumberPickerDivider</item>
+        <item name="selectionDividerHeight">2dp</item>
+        <item name="internalLayout">@layout/number_picker_with_selector_wheel</item>
+        <item name="internalMinWidth">64dp</item>
+        <item name="internalMaxHeight">180dp</item>
+        <item name="virtualButtonPressedDrawable">?attr/ItemBackGround</item>
+    </style>
+    
+    <style name="CalculatorButton" parent="@style/Button" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:background">?attr/CalculatorButton</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@style/ThemeBase" >
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarItemBackground">?attr/TextViewBackground</item>
+    </style>
+    
+    <style name="ActionBar" parent="@style/ActionBarBase">
+        <item name="android:backgroundSplit">@drawable/gray</item>
+    </style>
+</resources>

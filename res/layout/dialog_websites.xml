@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView" >
+
+        <LinearLayout
+            style="@style/Layout"
+            android:background="@null"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp" >
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:minWidth="240dp"
+            android:text="@string/website"
+            android:textSize="22sp" />
+
+        <View
+            style="@style/Divider"
+            android:layout_marginBottom="0dp" />
+
+        <RadioGroup
+            android:id="@+id/websites"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/sina"
+                style="@style/RadioButton"
+                android:background="?attr/TextViewBackground"
+                android:text="@string/sina" />
+
+            <View style="@style/DividerGray" />
+
+            <RadioButton
+                android:id="@+id/renren"
+                style="@style/RadioButton"
+                android:background="?attr/TextViewBackground"
+                android:text="@string/renren" />
+
+            <View style="@style/DividerGray" />
+
+            <RadioButton
+                android:id="@+id/tencent"
+                style="@style/RadioButton"
+                android:background="?attr/TextViewBackground"
+                android:text="@string/tencent" />
+
+            <View style="@style/DividerGray" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/Button"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</ScrollView>

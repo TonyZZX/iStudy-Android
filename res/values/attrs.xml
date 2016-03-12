@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="TextViewBackground" format="reference" />
+    <attr name="Button" format="reference" />
+    <attr name="TextButton" format="reference" />
+    <attr name="CheckBox" format="reference" />
+    <attr name="Handle" format="reference" />
+    <attr name="EditText" format="reference" />
+    <attr name="Divider" format="reference" />
+    <attr name="RadioButton" format="reference" />
+    <attr name="TextView" format="reference" />
+    <attr name="ItemBackGround" format="reference" />
+    <attr name="NumberPickerDivider" format="reference" />
+    <attr name="FastscrollThumb" format="reference" />
+    <attr name="CalculatorButton" format="reference" />
+    
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+</resources>

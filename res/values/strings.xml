@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">iStudy</string>
+    <string name="what_this">Tell you what is this</string>
+    <string name="or">or</string>
+    <string name="begin_use">Begin To Use It</string>
+    <string name="previous">Previous Page</string>
+    <string name="next">Next Page</string>
+    
+    <string name="instructions_1">Do you really feel like studying hard?\nBut you can not help playing the mobile phone, can you?</string>
+    <string name="instructions_2">Nothing has been finished because of games and Twitter!</string>
+    <string name="instructions_3">Interesting, every student may do this like you-_-</string>
+    <string name="instructions_4">[iStudy] is a magical App, \nwhich will prevent you from playing the mobile phone when studying!</string>
+    <string name="instructions_5">Once you set the time. . .</string>
+    <string name="instructions_6">You can NOT use anything of your mobile phone until the end of the countdown!</string>
+    <string name="instructions_7">And it will send your learning situation to the internet letting others scold as a punishment if you give up studying! ! !</string>
+    
+    <string name="choose_website">Please choose a website to login first</string>
+    <string name="sina">Sina</string>
+    <string name="renren">Renren</string>
+    <string name="tencent">Tencent</string>
+    <string name="login_reason">This is for sending your learning situation to the internet.</string>
+    
+    <string name="scroll">Scroll the bottom view if you can not see all of it.</string>
+    <string name="tip">Tip</string>
+    <string name="view">Dear user of MIUI:\nIn the App Info, please allow [Show popup windows] and click [end]. Then restart this App to use it better. Thank you!</string>
+    <string name="know">Know It</string>
+    <string name="view_tip">Allow [Show popup windows]\nClick [end]\nRestart this App</string>
+    <string name="begin_studying">Begin Studying</string>
+    <string name="arrange_time">Set the studying time</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="can_not_use">You can not use anything of your mobile phone during the setting time.</string>
+    <string name="insist">Insisting Mode</string>
+    <string name="net">Supervision Mode</string>
+    <string name="no_net">No-net Mode</string>
+    <string name="is_on">is On</string>
+    <string name="studying_mode">Super Scholar Mode</string>
+    <string name="accept_supervision">Accept the supervision of friends in the internet</string>
+    <string name="menu">Menu</string>
+    <string name="network">Please Check the network connection, it is failed.</string>
+    <string name="set_minute">Set minutes at least~</string>
+    <string name="error">Error: </string>
+    <string name="supervision1">Well, I am going to study and never play my mobile phone!!! </string>
+    <string name="supervision2">Well, I am going to study and never play my mobile phone!!! </string>
+    <string name="supervision3">Well, I am going to study and never play my mobile phone!!! </string>
+    <string name="supervision4">Well, I am going to study and never play my mobile phone!!! </string>
+    <string name="supervision5">Well, I am going to study and never play my mobile phone!!! </string>
+    <string name="supervision6">Well, I am going to study and never play my mobile phone!!! </string>
+    <string name="supervision7">Well, I am going to study and never play my mobile phone!!! </string>
+    <string name="end1">[I am using #iStudy# to set </string>
+    <string name="end2">of studying time~ It will prevent you from playing the mobile phone when studying, download address: http://istudyapp.duapp.com/ ]</string>
+
+    <string name="give_up">Give Up</string>
+    <string name="studying_text1">Using "Insisting Mode": You can not give up studying.</string>
+    <string name="studying_text2">Using "Supervision Mode": Send your learning situation to the internet letting others scold as a punishment if you give up studying.</string>
+    <string name="studying_text3">Using "No-net Mode": Some functions needing network are suspended.</string>
+    <string name="tools">Studying Tools</string>
+    <string name="up_web">591UP</string>
+    <string name="translator">Translator</string>
+    <string name="gallery">Gallery</string>
+    <string name="calculator">Calculator</string>
+    <string name="jyeoo">Jyeoo</string>
+    <string name="punishment1">Do not want to study any more. . . Let me have a  short rest. . . </string>
+    <string name="punishment2">Do not want to study any more. . . Let me have a  short rest. . . </string>
+    <string name="punishment3">Do not want to study any more. . . Let me have a  short rest. . . </string>
+    <string name="punishment4">Do not want to study any more. . . Let me have a  short rest. . . </string>
+    <string name="punishment5">Do not want to study any more. . . Let me have a  short rest. . . </string>
+    <string name="punishment6">Do not want to study any more. . . Let me have a  short rest. . . </string>
+    <string name="punishment7">Do not want to study any more. . . Let me have a  short rest. . . </string>
+    
+    <string name="refresh">Refresh</string>
+    <string name="translate_word">Please fill in the content needed translating</string>
+    <string name="web_translate">Web translate: </string>
+    <string name="photos"> photos</string>
+    <string name="back">back</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="only_sign">Only can use one mathematical sign.</string>
+    <string name="divisor_error">The divisor can not be zero.</string>
+    <string name="point_error">Point Error</string>
+    
+    <string name="success">Success</string>
+    <string name="success_word">Succeed in studying without playing the mobile phone~</string>
+    <string name="go_on">Go On Studying</string>
+    <string name="show_off">Show off your learning situation to the internet</string>
+    <string name="show1">Who am I? A super scholar! </string>
+    <string name="show2">Who am I? A super scholar! </string>
+    <string name="show3">Who am I? A super scholar! </string>
+    <string name="show4">Who am I? A super scholar! </string>
+    <string name="show5">Who am I? A super scholar! </string>
+    <string name="show6">Who am I? A super scholar! </string>
+    <string name="show7">Who am I? A super scholar! </string>
+    
+    <string name="fail">Fail</string>
+    <string name="fail_word">Well. . . You should try it once more. . .</string>
+    <string name="again">Studying Again</string>
+    
+    <string name="website">The website needed showing</string>
+    <string name="website_name">Obtaining your name. . .</string>
+    <string name="add_website">Add A Website Account</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="update">Check For Updates</string>
+    <string name="share">Share</string>
+    <string name="share_word">#iStudy# is a magical App! It will prevent you from playing the mobile phone! ! ! Download address: http://istudyapp.duapp.com/</string>
+    <string name="internet">Share To The Internet</string>
+    <string name="friend">Introduce To Friends</string>
+    <string name="write_word">Please write down word.</string>
+    <string name="success_share">Succeed in sharing~</string>
+    <string name="feedback">Feedback</string>
+    <string name="feed_word">\@我们爱学习App #iStudy# </string>
+    <string name="send">Send</string>
+    <string name="about">About</string>
+    <string name="instructions">Instructions</string>
+    
+    <string name="modes">Studying Mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="insist_key">You can not give up studying in "Insisting Mode".</string>
+    <string name="net_key">You can give up studying but it will send your learning situation to the internet automatically letting others scold as a punishment in "Supervision Mode".</string>
+    <string name="no_net_key">You can use it without the network connection for saving mobile data in "No-net Mode".</string>
+    <string name="skins">Skins</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="purple">Purple</string>
+    <string name="orange">Orange</string>
+    <string name="red">Red</string>
+    <string name="back_ground">Custom Background</string>
+    <string name="local">Local Picture</string>
+    <string name="none">Default</string>
+    <string name="local_text">You must choose the picture which is suitable for the background and the screen size~</string>
+    <string name="acceleration">Hardware Acceleration</string>
+    <string name="acceleration_key">Be better support hardware acceleration if on.\nP.S. Android Platform must be 3.0 at least.</string>
+    <string name="vibrate">Vibrate after studying</string>
+    
+    <string name="developerName"><u>ZhuTou</u></string>
+    <string name="develop">Develop</string>
+    <string name="twitter">Twitter:</string>
+    <string name="twitterName"><u>iStudy Team</u></string>
+</resources>

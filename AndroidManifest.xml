@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iStudy.Study"
+    android:installLocation="auto"
+    android:versionCode="24"
+    android:versionName="1.52" >
+    
+    <uses-sdk android:minSdkVersion="7" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+        <application android:label="@string/name" 
+            android:icon="@drawable/icon"
+            android:theme="@style/Theme"
+            android:allowBackup="true" >
+        
+        <activity android:name=".Prepare"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Welcome.Welcome"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".Main.Main"
+            android:label="@string/begin_studying"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".Studying"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".Success"
+            android:label="@string/success"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".Fail"
+            android:label="@string/fail"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".Settings"
+            android:label="@string/settings"
+            android:icon="@drawable/settings"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".About"
+            android:label="@string/about"
+            android:icon="@drawable/about"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".Instructions.Instructions"
+            android:label="@string/instructions"
+            android:icon="@drawable/instructions"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+		<activity android:name="com.renren.api.connect.android.AuthorizationHelper$BlockActivity" 
+            android:label="@string/renren"
+            android:icon="@drawable/renren"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" ></activity>
+        
+        <activity android:name="com.tencent.weibo.webview.OAuthV2AuthorizeWebView"
+            android:label="@string/tencent"
+            android:icon="@drawable/tencent"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <meta-data android:name="BaiduMobAd_CHANNEL" android:value="iStudy" />
+		<meta-data android:name="BaiduMobAd_STAT_ID" android:value="bbaf1b0f7d" />
+    </application>
+</manifest>

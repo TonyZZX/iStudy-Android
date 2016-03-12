@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingTop="12dp" >
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/TextView"
+        android:background="@drawable/black"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:textColor="@color/white_1"
+        android:textIsSelectable="false" />
+
+    <View style="@style/Blank" />
+
+    <com.iStudy.Study.Support.DigitalClock style="@style/TextView" />
+
+</LinearLayout>

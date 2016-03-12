@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView" >
+
+    <LinearLayout
+        style="@style/Layout"
+        android:background="@null" >
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginTop="0dp"
+            android:text="@string/name"
+            android:textSize="22sp" />
+
+        <ImageView
+            style="@style/WidgetVertical"
+            android:contentDescription="@string/name"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/right"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="96dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableRight="@drawable/forward"
+            android:text="@string/what_this" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/or" />
+
+        <Button
+            android:id="@+id/begin"
+            style="@style/Button"
+            android:layout_marginBottom="0dp"
+            android:text="@string/begin_use" />
+
+    </LinearLayout>
+
+</ScrollView>

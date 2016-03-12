@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout"
+    android:gravity="center" >
+
+    <TextView
+        style="@style/TextView"
+        android:layout_marginTop="0dp"
+        android:text="@string/arrange_time"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.iStudy.Study.NumberPicker.NumberPicker
+            android:id="@+id/hour"
+            style="@style/WidgetVertical"
+            android:layout_marginRight="4dp" />
+
+        <TextView
+            style="@style/WidgetVertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:text="@string/hour" />
+
+        <com.iStudy.Study.NumberPicker.NumberPicker
+            android:id="@+id/minute"
+            style="@style/WidgetVertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <TextView
+            style="@style/WidgetVertical"
+            android:layout_marginLeft="4dp"
+            android:text="@string/minute" />
+
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/ScrollViewWidget"
+        android:layout_marginBottom="0dp" >
+
+        <LinearLayout
+            style="@style/LayoutBase"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                style="@style/TextView"
+                android:layout_marginTop="0dp"
+                android:text="@string/can_not_use" />
+
+            <TextView
+                android:id="@+id/isOn"
+                style="@style/TextView"
+                android:textIsSelectable="false"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/start"
+                style="@style/Button"
+                android:text="@string/studying_mode" />
+
+            <CheckBox
+                android:id="@+id/supervision"
+                style="@style/CheckBox"
+                android:layout_marginBottom="0dp"
+                android:text="@string/accept_supervision" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

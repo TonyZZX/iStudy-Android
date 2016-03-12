@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutBase"
+    android:background="@drawable/white" >
+
+    <com.iStudy.Study.Support.DigitalClock
+        style="@style/TextView"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp" />
+
+    <ScrollView
+        style="@style/ScrollViewWidget"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            style="@style/LayoutBase"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" >
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/TextView"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/black"
+                android:paddingBottom="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/white_1"
+                android:textIsSelectable="false"
+                android:textSize="55sp" />
+
+            <Button
+                android:id="@+id/giveUp"
+                style="@style/Button"
+                android:text="@string/give_up"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/studyingText"
+                style="@style/TextView"
+                android:layout_marginBottom="0dp"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <SlidingDrawer
+        android:id="@+id/drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="144dp"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/handle"
+            style="@style/TextView"
+            android:background="?attr/TextViewBackground"
+            android:drawableBottom="?attr/Handle"
+            android:paddingBottom="12dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:text="@string/tools" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            style="@style/Layout"
+            android:background="@drawable/black" >
+
+            <GridView
+                android:id="@+id/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:columnWidth="72dp"
+                android:horizontalSpacing="8dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="8dp" />
+
+        </LinearLayout>
+
+    </SlidingDrawer>
+
+</LinearLayout>

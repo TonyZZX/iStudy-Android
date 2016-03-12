@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView"
+    android:background="@drawable/black" >
+
+    <LinearLayout
+        style="@style/Layout"
+        android:background="@null"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp" >
+
+        <TextView
+            android:id="@+id/website"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:minWidth="192dp"
+            android:textColor="@color/gray_1"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/info"
+            style="@style/TextButton"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="?attr/TextViewBackground"
+            android:text="@string/website_name"
+            android:textColor="@color/white_1"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/logout"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/logout"
+            android:text="@string/logout"
+            android:textColor="@color/gray_2"
+            android:visibility="gone" />
+
+        <View
+            style="@style/Divider"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            android:id="@+id/settings"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/settings"
+            android:text="@string/settings"
+            android:textColor="@color/white_2"
+            android:textSize="18sp" />
+
+        <View style="@style/DividerGray" />
+
+        <TextView
+            android:id="@+id/feedback"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/feedback"
+            android:text="@string/feedback"
+            android:textColor="@color/white_2"
+            android:textSize="18sp" />
+
+        <View style="@style/DividerGray" />
+
+        <TextView
+            android:id="@+id/about"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/about"
+            android:text="@string/about"
+            android:textColor="@color/white_2"
+            android:textSize="18sp" />
+
+        <View style="@style/DividerGray" />
+
+        <TextView
+            android:id="@+id/share"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/share"
+            android:text="@string/share"
+            android:textColor="@color/white_2"
+            android:textSize="18sp" />
+
+        <View style="@style/DividerGray" />
+
+        <TextView
+            android:id="@+id/update"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/update"
+            android:text="@string/update"
+            android:textColor="@color/white_2"
+            android:textSize="18sp" />
+
+        <View style="@style/DividerGray" />
+
+        <TextView
+            android:id="@+id/instructions"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:drawableLeft="@drawable/instructions"
+            android:text="@string/instructions"
+            android:textColor="@color/white_2"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

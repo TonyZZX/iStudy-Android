@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Dialog" parent="@android:style/Theme.Holo.Light.Dialog" >
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    
+    <style name="ProgressDialog" parent="@style/Dialog" >
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>

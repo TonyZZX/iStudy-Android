@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	系统定义的字符串变量，均以renren_前缀开头，用户定义的资源文件不得包含此前缀
+	@Author sunting ting.sun@renren-inc.com
+-->
+<resources>
+	<string name="renren_sdk_title_label">發布到人人網</string>
+	<string name="renren_sdk_title_upload_label">上傳照片至人人</string>
+	
+	<string name="renren_sdk_album_name_label">相冊名稱</string>
+	<string name="renren_sdk_album_visible_label">誰能瀏覽</string>
+	<string name="renren_sdk_album_location_label">拍照地點</string>
+	<string name="renren_sdk_album_description_label">照片描述</string>
+	
+	<string name="renren_sdk_submit">確定</string>
+	<string name="renren_sdk_cancel">取消</string>
+	<string name="renren_sdk_upload">上傳</string>
+	
+	<string name="renren_sdk_album_name_hint">請輸入相冊名稱</string>
+	<string name="renren_sdk_album_location_hint">請輸入拍照地點</string>
+	<string name="renren_sdk_album_description_hint">請輸入相冊描述</string>
+	
+	<string name="renren_sdk_photo_caption_hint">請輸入照片描述</string>
+	
+	<string name="renren_sdk_mobile_album">手機相冊</string>
+	
+	<string name="renren_sdk_status_hint">妳正在幹嘛？</string>
+	<string name="renren_sdk_status_publish_success">發布成功</string>
+	<string name="renren_sdk_status_publish_failed">發布失敗</string>
+	<string name="renren_sdk_status_publish">發布</string>
+	<string name="renren_sdk_status_cancel">取消</string>
+	<string name="renren_sdk_long_status">狀態長度的字數上限為</string>
+	<string name="renren_sdk_publish_status_hint">發布中，請稍後</string>	
+	<string name="renren_sdk_object_init_error">程序重新初始化失敗</string>
+	<string name="renren_sdk_publish_null_status_alert">您還未輸入內容，請輸入後再試</string>
+	
+	<string name="renren_sdk_username">賬號</string>
+	<string name="renren_sdk_password">密碼</string>
+	<string name="renren_sdk_login">登錄</string>
+	
+	<string name="renren_sdk_upload_photo_change_user"><u>切換賬號</u></string>
+	<string name="renren_sdk_pay_repair_overview"><u>訂單概況</u></string>
+	<string name="renren_sdk_pay_repair_remove_all">清除所有訂單</string>
+	<string name="renren_sdk_pay_repair_btn_text">修復訂單</string>
+	<string name="renren_sdk_pay_repair_order_number">訂單編號:</string>
+	<string name="renren_sdk_pay_repair_order_amount">訂單金額:</string>
+	<string name="renren_sdk_pay_repair_order_time">訂單時間:</string>
+	<string name="renren_sdk_pay_repair_order_bid">流水單號:</string>
+	<string name="renren_sdk_pay_repair_order_des">訂單描述:</string>
+	<string name="renren_sdk_pay_repair_order_status">訂單狀態:</string>
+</resources>

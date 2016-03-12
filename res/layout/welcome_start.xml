@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout" >
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/choose_website"
+        android:textSize="18sp" />
+
+    <ScrollView
+        style="@style/ScrollViewWidget"
+        android:layout_marginTop="48dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            style="@style/LayoutBase"
+            android:paddingLeft="48dp"
+            android:paddingRight="48dp" >
+
+            <TextView
+                android:id="@+id/sina"
+                style="@style/TextButton"
+                android:background="?attr/TextButton"
+                android:drawableLeft="@drawable/sina"
+                android:text="@string/sina" />
+
+            <TextView
+                android:id="@+id/renren"
+                style="@style/TextButton"
+                android:background="?attr/TextButton"
+                android:drawableLeft="@drawable/renren"
+                android:text="@string/renren" />
+
+            <TextView
+                android:id="@+id/tencent"
+                style="@style/TextButton"
+                android:background="?attr/TextButton"
+                android:drawableLeft="@drawable/tencent"
+                android:text="@string/tencent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/login_reason"
+        android:textSize="12sp" />
+
+</LinearLayout>

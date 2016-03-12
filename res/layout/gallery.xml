@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutBase"
+    android:background="@drawable/white" >
+    
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tools_top" >
+
+    </include>
+    
+    <LinearLayout
+        android:id="@+id/listL"
+        style="@style/LayoutBase"
+        android:layout_marginTop="4dp"
+        android:baselineAligned="false" >
+        
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:divider="?attr/Divider"
+            android:dividerHeight="2dp"
+            android:fastScrollEnabled="true" />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        
+            <TextView
+                android:id="@+id/up"
+                style="@style/TextButton"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="?attr/TextViewBackground"
+                android:drawableLeft="@drawable/up"
+                android:text="@string/back" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gridL"
+        style="@style/LayoutBase"
+        android:layout_marginTop="4dp"
+        android:baselineAligned="false"
+        android:visibility="gone" >
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:columnWidth="72dp"
+            android:fastScrollEnabled="true"
+            android:gravity="center"
+            android:horizontalSpacing="8dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/upG"
+                style="@style/TextButton"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="?attr/TextViewBackground"
+                android:drawableLeft="@drawable/up"
+                android:text="@string/back" />
+
+            <TextView
+                android:id="@+id/backG"
+                style="@style/TextButton"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="?attr/TextViewBackground"
+                android:drawableLeft="@drawable/previous"
+                android:text="@string/previous" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imageL"
+        style="@style/LayoutBase"
+        android:layout_marginTop="4dp"
+        android:baselineAligned="false"
+        android:visibility="gone" >
+        
+        <com.iStudy.Study.Gallery.ImageZoomView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/upI"
+                style="@style/TextButton"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="?attr/TextViewBackground"
+                android:drawableLeft="@drawable/up"
+                android:text="@string/back" />
+
+            <TextView
+                android:id="@+id/zoomIn"
+                style="@style/TextButton"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="?attr/TextViewBackground"
+                android:drawableLeft="@drawable/zoom_in"
+                android:text="@string/zoom_in" />
+
+            <TextView
+                android:id="@+id/backI"
+                style="@style/TextButton"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="?attr/TextViewBackground"
+                android:drawableLeft="@drawable/previous"
+                android:text="@string/previous" />
+
+            <TextView
+                android:id="@+id/zoomOut"
+                style="@style/TextButton"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="?attr/TextViewBackground"
+                android:drawableLeft="@drawable/zoom_out"
+                android:text="@string/zoom_out" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

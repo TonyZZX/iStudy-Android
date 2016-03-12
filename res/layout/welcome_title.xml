@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutBase"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/beginT"
+        style="@style/TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:background="?attr/TextViewBackground"
+        android:text="@string/begin_use"
+        android:textColor="@color/white_1" />
+
+</LinearLayout>

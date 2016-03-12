@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutBase"
+    android:background="?attr/TextViewBackground"
+    android:gravity="center" >
+    
+     <ImageView
+         android:id="@+id/tImage"
+         style="@style/WidgetVertical" />
+
+    <TextView
+        android:id="@+id/tName"
+        style="@style/TextView"
+        android:textColor="@color/white_1" />
+
+</LinearLayout>

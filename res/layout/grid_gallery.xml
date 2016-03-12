@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutBase"
+    android:background="?attr/TextViewBackground"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/imageItem"
+        android:layout_height="72dp"
+        android:layout_width="72dp"
+        android:contentDescription="@string/name" />
+
+</LinearLayout>

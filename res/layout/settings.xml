@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView" >
+
+    <LinearLayout
+        style="@style/Layout"
+        android:background="@null"
+        android:gravity="left"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp" >
+
+        <TextView
+            android:id="@+id/mTitle"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:gravity="left"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/modes"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mKey"
+            style="@style/TextView"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/gray_1"
+            android:textIsSelectable="false" />
+
+        <View
+            style="@style/DividerGray"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/sTitle"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:gravity="left"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/skins"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sKey"
+            style="@style/TextView"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/gray_1"
+            android:textIsSelectable="false" />
+
+        <View
+            style="@style/DividerGray"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/bgTitle"
+            style="@style/TextButton"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/TextViewBackground"
+            android:gravity="left"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/back_ground"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bgKey"
+            style="@style/TextView"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/gray_1"
+            android:textIsSelectable="false" />
+
+        <View
+            style="@style/DividerGray"
+            android:layout_marginTop="4dp" />
+
+        <CheckBox
+            android:id="@+id/acceleration"
+            style="@style/CheckBox"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="?attr/CheckBox"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="12dp"
+            android:text="@string/acceleration"
+            android:textSize="18sp" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/acceleration_key"
+            android:textColor="@color/gray_1"
+            android:textIsSelectable="false" />
+
+        <View
+            style="@style/DividerGray"
+            android:layout_marginTop="4dp" />
+
+        <CheckBox
+            android:id="@+id/vibrate"
+            style="@style/CheckBox"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="?attr/CheckBox"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="12dp"
+            android:text="@string/vibrate"
+            android:textSize="18sp" />
+
+        <View
+            style="@style/DividerGray"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">我們愛學習</string>
+    <string name="what_this">先看看這是什麽？</string>
+    <string name="or">或者</string>
+    <string name="begin_use">開始使用</string>
+    <string name="previous">上壹頁</string>
+    <string name="next">下壹頁</string>
+    
+    <string name="instructions_1">很想好好學習對不對？\n但是又忍不住想去玩手機是不是？</string>
+    <string name="instructions_2">結果刷壹下微博、瞄壹眼QQ\n最後什麽事都沒做啊有沒有！</string>
+    <string name="instructions_3">哈哈，這是做學生的通病-_-</string>
+    <string name="instructions_4">【我們愛學習】是壹款具有跨時代意義的作品\n可以徹底杜絕學習時玩手機的情況！</string>
+    <string name="instructions_5">只需設定好學習時間……</string>
+    <string name="instructions_6">在這段時間裏手機就是壹磚頭，完全被限制操作！</string>
+    <string name="instructions_7">如果忍不住放棄學習就將會受到大家的羞辱和鄙視！</string>
+    
+    <string name="choose_website">首先，請先關聯壹個社交平臺</string>
+    <string name="sina">新浪微博</string>
+    <string name="renren">人人网</string>
+    <string name="tencent">騰訊微博</string>
+    <string name="login_reason">這樣才能把妳的學習情況發送到網絡上</string>
+    
+    <string name="scroll">如果按鈕顯示不全，請上下滑動底部界面試試</string>
+    <string name="tip">提示</string>
+    <string name="view">親愛的MIUI用戶：\n請在應用信息中開啓【顯示懸浮窗】→點擊【結束運行】，最後重新啓動應用，以便獲得更好的使用體驗，感謝合作！</string>
+    <string name="know">我知道了</string>
+    <string name="view_tip">開啓【顯示懸浮窗】\n點擊【結束運行】\n重新啓動應用</string>
+    <string name="begin_studying">開始學習</string>
+    <string name="arrange_time">那麽，計劃下學習時間吧</string>
+    <string name="hour">小時</string>
+    <string name="minute">分鐘</string>
+    <string name="can_not_use">在設定的時間裏是無法使用手機的哦</string>
+    <string name="insist">堅持到底</string>
+    <string name="net">網絡懲罰</string>
+    <string name="no_net">離線模式</string>
+    <string name="is_on">已開啟</string>
+    <string name="studying_mode">進入學霸模式</string>
+    <string name="accept_supervision">在網絡上接受大家的監督</string>
+    <string name="menu">菜單</string>
+    <string name="network">網絡連接失敗了啦，趕快檢查下</string>
+    <string name="set_minute">至少要設置好分鐘數哦~</string>
+    <string name="error">哎呀，發生錯誤了，錯誤代碼：</string>
+    <string name="supervision1">咳咳~我要開始認真學習了！！！打死我都不碰手機！</string>
+    <string name="supervision2">手機君給我放手！我是學習君的人！我只愛學習君壹個人！！！</string>
+    <string name="supervision3">我要去念書了！手機什麽的都去死吧！！！</string>
+    <string name="supervision4">從現在開始我要認真讀書，立此微博為證，如果學習時間玩手機 ，微博直播表白！</string>
+    <string name="supervision5">進入學霸模式！絕對不能手賤，絕不能在學習的時候玩手機！求！！監！！督！！</string>
+    <string name="supervision6">不好好學習，壹輩子待中國！</string>
+    <string name="supervision7">再不去學習真的又要不及格了……先撤了！大家勿擾！！</string>
+    <string name="end1">【我用#我們愛學習# 設置了</string>
+    <string name="end2">的學習時間~它能徹底杜絕學習時想玩手機的念頭，下載地址：http://istudyapp.duapp.com/】</string>
+    
+    <string name="give_up">放棄</string>
+    <string name="studying_text1">正在使用“堅持到底”模式，不能放棄學習</string>
+    <string name="studying_text2">正在使用“網絡監督”模式\n如果放棄學習，將會自動發送到網絡接受大家的羞辱和鄙視</string>
+    <string name="studying_text3">正在使用“離線模式”，需要連接網絡的功能暫停使用</string>
+    <string name="tools">學習工具</string>
+    <string name="up_web">591隨身學</string>
+    <string name="translator">翻譯</string>
+    <string name="gallery">圖庫</string>
+    <string name="calculator">計算器</string>
+    <string name="jyeoo">菁優網</string>
+    <string name="punishment1">手賤啊啊啊啊忍不住忍不住忍不住忍不住忍不住忍不住又碰手機了啊啊啊啊剁掉！！！！！！！！</string>
+    <string name="punishment2">10.9.8. . .3.2.1，讀書！東風壹號跟蹤正常，遙測信號正常，筆袋顯示正常，桌子擺放支持，書本展開正常，現在主體與手機分離，主體與手機分離……尼瑪，又失敗了！</string>
+    <string name="punishment3">好吧我承認我又忍不住玩手機了T_T我決定以身相許給第壹個轉走此信息的童鞋來懲罰自己*^﹏^*</string>
+    <string name="punishment4">又失敗了…又失敗了…又失敗了啊啊啊啊啊啊！！！怎麽又拿起了手機！怎麽又沒管住自己了啊！我做不成學霸……沒臉見人…</string>
+    <string name="punishment5">玩妳妹的手機玩妳妹的手機玩妳妹的手機！！！再在學習的時候玩手機就剁手！剁手哇啊啊啊！！！</string>
+    <string name="punishment6">對不住大家我又在學習的時候玩手機了……麻煩看見的每個人都回復壹句“玩妳妹的手機”“妳個二貨永遠成不了學霸”！</string>
+    <string name="punishment7">不能再玩了吶，玩妳妹的手機！手機什麽的都統統給我去死吧！</string>
+    
+    <string name="refresh">刷新</string>
+    <string name="translate_word">請填寫需要翻譯的內容</string>
+    <string name="web_translate">網絡釋義：</string>
+    <string name="photos"> 張圖片</string>
+    <string name="back">返回</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">縮小</string>
+    <string name="only_sign">只能有壹個運算符號</string>
+    <string name="divisor_error">除數不能為0</string>
+    <string name="point_error">小數點錯誤</string>
+    
+    <string name="success">學習成功</string>
+    <string name="success_word">成功忍住了，沒有玩手機~</string>
+    <string name="go_on">繼續學習</string>
+    <string name="show_off">這不告訴別人炫耀壹番啊</string>
+    <string name="show1">學霸在此還不膜拜~說不玩手機就堅決不玩！</string>
+    <string name="show2">還是學習君最愛我了，我要永遠和妳在壹起233333333</string>
+    <string name="show3">書本在手，天下我有！手機妳算個毛線蛋！</string>
+    <string name="show4">買彩票中了500萬，沒問題，整個場面我hold住。剛剛壹直在學習都沒有碰手機！哇塞，超帥超給力！我hold不住啦！必須發微博炫耀壹下^ω^</string>
+    <string name="show5">咦，今天我的學習情況是極好的，想必是最好不過的了。我願每天與書廝守，雖無暇顧及手機，倒也不負恩澤。</string>
+    <string name="show6">絕對沒有動手機壹下，絕對的學霸就是我！</string>
+    <string name="show7">告訴妳，學霸不是壹日煉成的</string>
+    
+    <string name="fail">學習失敗</string>
+    <string name="fail_word">唉，意誌不堅定…….</string>
+    <string name="again">再試壹次</string>
+    
+    <string name="website">需要顯示的社交平臺</string>
+    <string name="website_name">正在獲取姓名…</string>
+    <string name="add_website">添加賬號</string>
+    <string name="logout">註銷</string>
+    <string name="settings">設置</string>
+    <string name="update">檢查更新</string>
+    <string name="share">分享</string>
+    <string name="share_word">我正在用#我們愛學習# ，壹個神奇的應用啊！學習時根本別想玩手機！！！絕對能快速提高學習效率！下載地址： http://istudyapp.duapp.com/</string>
+    <string name="internet">分享到網絡</string>
+    <string name="friend">介紹給朋友</string>
+    <string name="write_word">內容不能空白</string>
+    <string name="success_share">分享成功</string>
+    <string name="feedback">吐槽反饋</string>
+    <string name="feed_word">\@我們愛學習App #我們愛學習# </string>
+    <string name="send">發送</string>
+    <string name="about">關於</string>
+    <string name="instructions">功能介紹</string>
+    
+    <string name="modes">學習模式</string>
+    <string name="cancel">取消</string>
+    <string name="insist_key">“堅持到底”模式下不能放棄學習</string>
+    <string name="net_key">“網絡懲罰”模式下可以放棄學習，但會自動發送到網絡接受大家的羞辱和鄙視</string>
+    <string name="no_net_key">“離線模式”模式下無需網絡即可使用，更省流量哦</string>
+    <string name="skins">皮膚</string>
+    <string name="green">綠</string>
+    <string name="blue">藍</string>
+    <string name="purple">紫</string>
+    <string name="orange">橙</string>
+    <string name="red">紅</string>
+    <string name="back_ground">自定義背景</string>
+    <string name="local">本地圖片</string>
+    <string name="none">默認背景</string>
+    <string name="local_text">壹定要挑選適合做背景且符合手機屏幕的圖片噢</string>
+    <string name="acceleration">硬件加速</string>
+    <string name="acceleration_key">勾選後部分設備會提升流暢度\n注意：Android版本需3.0及以上</string>
+    <string name="vibrate">學習結束振動提醒</string>
+    
+    <string name="developerName"><u>猪头的啦</u></string>
+    <string name="develop">作品</string>
+    <string name="twitter">官方微博：</string>
+    <string name="twitterName"><u>我们爱学习App</u></string>
+</resources>

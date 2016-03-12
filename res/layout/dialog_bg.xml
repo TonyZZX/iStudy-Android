@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView" >
+
+        <LinearLayout
+            style="@style/Layout"
+            android:background="@null"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp" >
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:minWidth="240dp"
+            android:text="@string/back_ground"
+            android:textSize="22sp" />
+
+        <View
+            style="@style/DividerGray"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/local"
+            style="@style/Button"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/local" />
+
+        <View style="@style/DividerGray" />
+
+        <Button
+            android:id="@+id/none"
+            style="@style/Button"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/none" />
+
+        <View style="@style/DividerGray" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/Button"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</ScrollView>

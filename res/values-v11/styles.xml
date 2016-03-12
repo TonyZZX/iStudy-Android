@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@style/ThemeBase" >
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:editTextBackground">?attr/EditText</item>
+        <item name="android:listChoiceIndicatorMultiple">?attr/CheckBox</item>
+        <item name="android:listChoiceIndicatorSingle">?attr/RadioButton</item>
+        <item name="android:fastScrollThumbDrawable">?attr/FastscrollThumb</item>
+    </style>
+    
+    <style name="ProgressBar" >
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+        <item name="android:animationResolution">33</item>
+    </style>
+</resources>
